@@ -1,0 +1,19 @@
+{
+  "title": "Freelance Jobs Market",
+  "logo": "Freelance Market",
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.jobs": "Jobs",
+  "nav.contact": "Contact",
+  "nav.login": "Login",
+  "nav.register": "Register",
+  "nav.account": "My Account",
+  "nav.dashboard": "Dashboard",
+  "nav.theme": "Dark Mode",
+  "hero.welcome": "Welcome to the Freelance Jobs Market",
+  "hero.subtitle": "Find new jobs and get your chance to develop your skills and work with global clients.",
+  "hero.getStarted": "Get Started",
+  "footer.siteName": "Freelance Jobs Market",
+  "footer.rights": "All rights reserved.",
+  "nav.favorites": "Favorites"
+}

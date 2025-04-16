@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="favorites.title">المفضلة</title>
+
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/pages/favorites.css" />
+  <link href="assets/fonts/cairo/cairo-font.ttf" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main class="container" data-aos="fade-up">
+    <h1 data-i18n="favorites.header">الوظائف المفضلة</h1>
+    <div id="favorites" class="job-cards"></div>
+  </main>
+
+  <!-- Footer will be injected -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/pages/favorites.js"></script>
+</body>
+</html>

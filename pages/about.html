@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="title">من نحن - منصة العمل الحر</title>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/pages/about.css" />
+
+  <!-- Fonts -->
+  <link href="assets/fonts/cairo/cairo-font.ttf" rel="stylesheet" />
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+</head>
+
+<body>
+  <!-- Navbar -->
+<header class="navbar" data-aos="fade-down">
+  <div class="container">
+    <div class="logo" data-i18n="logo">سوق الوظائف</div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">الصفحة الرئيسية</a></li>
+        <li><a href="jobs.html" data-i18n="nav.jobs">الوظائف</a></li>
+        <li><a href="login.html" data-i18n="nav.login">تسجيل الدخول</a></li>
+       <!--  <li><a href="register.html" data-i18n="nav.register">إنشاء حساب</a></li> -->
+        <!--  <li><a href="account.html" data-i18n="nav.account">حسابي</a></li> -->
+        <li><a href="about.html" class="active" data-i18n="nav.about">من نحن</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">اتصل بنا</a></li>
+        <li class="lang-toggle">
+          <a href="#" id="lang-ar" onclick="setLanguage('ar'); return false;">عربي</a>
+          <span>|</span>
+          <a href="#" id="lang-en" onclick="setLanguage('en'); return false;">EN</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <!-- Main Content -->
+  <main class="about-page">
+    <section class="hero-section">
+      <div class="container" data-aos="fade-up">
+        <h1 data-i18n="about.title">من نحن</h1>
+        <p data-i18n="about.intro">
+          نحن منصة مبتكرة تربط أصحاب الأعمال بالمستقلين الموهوبين في العراق. هدفنا هو تقديم أفضل فرص العمل
+          للمستقلين وتوفير حلول سهلة وسريعة لأصحاب الأعمال.
+        </p>
+      </div>
+    </section>
+
+    <section class="details-section">
+      <div class="container">
+        <div class="row">
+          <div class="col" data-aos="zoom-in">
+            <div class="about-text">
+              <h2 data-i18n="about.visionTitle">رؤيتنا</h2>
+              <p data-i18n="about.visionDesc">
+                نهدف إلى تحسين سوق العمل المستقل في العراق وتمكين المهنيين الموهوبين من العمل مع أفضل الشركات
+                العالمية والمحلية. نسعى لتوفير بيئة عمل مرنة وسهلة للعديد من المحترفين.
+              </p>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="about-image">
+              <img src="assets/images/team.jpg" alt="فريق العمل" loading="lazy"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="values-section">
+      <div class="container" data-aos="fade-up">
+        <h2 data-i18n="about.valuesTitle">قيمنا</h2>
+        <div class="values-grid">
+          <div class="value-card">
+            <img src="assets/icons/professional.svg" alt="Professionalism"/>
+            <p data-i18n="about.value1">الاحترافية</p>
+          </div>
+          <div class="value-card">
+            <img src="assets/icons/flexibility.svg" alt="Flexibility"/>
+            <p data-i18n="about.value2">المرونة</p>
+          </div>
+          <div class="value-card">
+            <img src="assets/icons/innovation.svg" alt="Innovation"/>
+            <p data-i18n="about.value3">الابتكار</p>
+          </div>
+          <div class="value-card">
+            <img src="assets/icons/transparency.svg" alt="Transparency"/>
+            <p data-i18n="about.value4">الشفافية</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 <span data-i18n="footer.siteName">سوق الوظائف الحرة</span>. <span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/pages/about.js"></script>
+</body>
+</html>
